@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ARmodel.moc3",
+		"Textures": [
+			"ARmodel.1024/texture_00.png"
+		],
+		"Physics": "ARmodel.physics3.json",
+		"Motions": {
+			"TapBody": [
+				{
+					"File": "motions/ActionB1.motion3.json"
+				}
+			],
+			"TapHead": [
+				{
+					"File": "motions/ActionH1.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/Idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitAreaBody",
+			"Name": ""
+		},
+		{
+			"Id": "HitAreaHead",
+			"Name": ""
+		}
+	]
+}

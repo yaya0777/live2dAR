@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "mirai3.moc3",
+		"Textures": [
+			"mirai3.1024/texture_00.png"
+		],
+		"Physics": "mirai3.physics3.json",
+		"Motions": {
+			"Tapbody": [
+				{
+					"File": "motions/ActionB1.motion3.json"
+				}
+			],
+			"Taphead": [
+				{
+					"File": "motions/ActionH1.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/Idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitAreaBody",
+			"Name": ""
+		},
+		{
+			"Id": "HitAreaHead",
+			"Name": ""
+		}
+	]
+}

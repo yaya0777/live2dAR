@@ -1,12 +1,12 @@
 [[models]]
 # モデル名
-name = "mirai"
+name = "mirai3"
 # ビルボーディング表示設定
 billboarding = false
 # 非モーション再生時の呼吸動作設定
 enablebreathing = true
 # AR 空間上のモデルの拡大率
-scale = 1
+scale = 4
 # AR 空間上のモデルの表示位置
 [models.position]
 x = 0 # 左右位置
@@ -23,7 +23,8 @@ x = 0
 y = 0
 # モデルの当たり判定とモーショングループの紐付け
 [models.hitInfo]
-# 当たり判定ID = "モーショングループ名"
+HitAreaBody = "Tapbody"
+HitAreaHead = "Taphead"
 # 全体の設定
 [global]
 # マーカーARモードとツーショットARモードの切替の許可設定
